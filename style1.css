@@ -1,0 +1,65 @@
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  font-size: 20px;
+  height: 400px;
+}
+
+.item {
+  text-align: center;
+  padding: 1rem;
+}
+
+header {
+  background: lightpink;
+  border: 1px dashed rgb(211, 128, 141);
+  grid-column: 1 / 4;
+}
+
+footer {
+  background: lightgreen;
+  border: 1px dashed green;
+  grid-column: 1 / 4;
+}
+
+div.left {
+  background: skyblue;
+  border: 1px dashed rgb(53, 130, 160);
+  grid-column: 1 / 2;
+}
+
+div.middle {
+  background: lightcoral;
+  border: 1px dashed rgb(197, 83, 83);
+}
+
+div.right {
+  background: rgb(250, 250, 177);
+  border: 1px dashed rgb(175, 175, 23);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 500px) {
+  body {
+    /* background: white; */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .item {
+    padding: 1.5rem 0.5rem;
+  }
+}
