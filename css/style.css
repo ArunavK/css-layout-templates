@@ -6,3 +6,42 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.green {
+  background-color: lightgreen;
+  border: 1px dashed green;
+}
+
+.pink {
+  background-color: lightpink;
+  border: 1px dashed rgb(211, 128, 141);
+}
+
+.blue {
+  background: skyblue;
+  border: 1px dashed rgb(53, 130, 160);
+}
+
+.white {
+  background-color: antiquewhite;
+  border: 1px dashed gray;
+}
+
+.purple {
+  background-color: rgb(173, 111, 173);
+  border: 1px dashed purple;
+}
+
+.yellow {
+  background-color: rgb(250, 230, 118);
+  border: 1px dashed darkgoldenrod
+}

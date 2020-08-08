@@ -1,0 +1,22 @@
+p {
+  font-family: "Sofia", sans-serif;
+  font-size: 15px;
+}
+
+.parent {
+  display: grid;
+  place-items: center;
+  height: 500px;
+}
+
+.card {
+  width: clamp(23ch, 50%, 43ch);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.visual {
+  height: 125px;
+  width: 100%;
+}

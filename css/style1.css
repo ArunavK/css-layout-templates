@@ -20,14 +20,10 @@ p {
 }
 
 header {
-  background: lightpink;
-  border: 1px dashed rgb(211, 128, 141);
   grid-column: 1 / 4;
 }
 
 footer {
-  background: lightgreen;
-  border: 1px dashed green;
   grid-column: 1 / 4;
 }
 

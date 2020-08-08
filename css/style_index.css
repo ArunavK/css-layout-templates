@@ -16,15 +16,6 @@
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: green;
-}
-
 .grid-item1 {
   grid-column-start: 1;
   grid-column-end: 3;
