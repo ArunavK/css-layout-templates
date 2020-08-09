@@ -7,6 +7,11 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  font-family: "Sofia", "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
 a {
   text-decoration: none;
 }
