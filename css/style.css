@@ -1,5 +1,11 @@
+:root {
+  --blue-back: hsl(177, 58%, 80%);
+  scrollbar-color: hsl(295, 83%, 45%) var(--blue-back);
+  scrollbar-width: auto;
+}
+
 body {
-  background-color: hsl(177, 58%, 80%);
+  background-color: var(--blue-back);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
