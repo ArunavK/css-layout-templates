@@ -5,7 +5,7 @@
   grid-template-columns: repeat(4, auto);
   height: 400px;
   justify-content: normal;
-  padding: 10px;
+  padding: 12px;
 }
 
 .grid-container div {

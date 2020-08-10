@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(109, 228, 222);
+  background-color: hsl(177, 58%, 80%);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -10,6 +10,10 @@ h1 {
 p {
   font-family: "Sofia", "Roboto", Arial, Helvetica, sans-serif;
   font-size: 19px;
+}
+
+.sans-serif {
+  font-family: "Roboto", Helvetica, Arial;
 }
 
 a {
@@ -42,11 +46,29 @@ a:hover {
 }
 
 .purple {
-  background-color: rgb(173, 111, 173);
+  background-color: rgb(214, 122, 214);
   border: 1px dashed purple;
 }
 
 .yellow {
   background-color: rgb(250, 230, 118);
-  border: 1px dashed darkgoldenrod
+  border: 1px dashed darkgoldenrod;
+}
+
+.violet {
+  background-color: hsl(281, 23%, 61%);
+  border: 1px dashed darkviolet;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, hsl(295, 83%, 45%), transparent);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(271, 61%, 45%);
 }
