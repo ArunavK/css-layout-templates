@@ -9,8 +9,6 @@
 }
 
 .container div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -22,12 +20,24 @@
   background-color: blueviolet;
 }
 
+.grid-item1:hover {
+  background-color: rgb(187, 119, 250);
+}
+
 .grid-item2 {
   background-color: turquoise;
 }
 
+.grid-item2:hover {
+  background-color: rgb(109, 255, 240);
+}
+
 .grid-item3 {
-  background: lightcoral;
+  background: rgb(235, 94, 94);
+}
+
+.grid-item3:hover {
+  background-color: hsl(0, 100%, 71%);
 }
 
 .grid-item4 {
@@ -36,17 +46,33 @@
   background-color: coral;
 }
 
+.grid-item4:hover {
+  background-color: hsl(16, 100%, 70%);
+}
+
 .grid-item5 {
   grid-area: 4 / 5 / 2 / 4;
   background-color: green;
 }
 
+.grid-item5:hover {
+  background-color: rgb(32, 236, 32);
+}
+
 .grid-item6 {
   grid-row: 2 / 4;
-  background: greenyellow;
+  background: rgb(153, 226, 42);
+}
+
+.grid-item6:hover {
+  background-color: hsl(84, 100%, 68%);
 }
 
 .grid-item7 {
   grid-column: 2 / span 2;
-  background: lemonchiffon;
+  background: rgb(220, 20, 20);
+}
+
+.grid-item7:hover {
+  background-color: hsl(0, 100%, 65%);
 }
