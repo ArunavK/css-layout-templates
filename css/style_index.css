@@ -1,3 +1,15 @@
+body {
+  color: black;
+  background-image: url("../img/wood_texture_back.jpg");
+  background-position: center;
+}
+
+article {
+  background-color: hsla(39, 100%, 88%, 0.63);
+  margin: 15px 10%;
+  padding: 10px;
+}
+
 .container {
   align-content: normal;
   background-color: coral;
