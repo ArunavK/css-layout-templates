@@ -1,4 +1,4 @@
-.grid-container {
+.container {
   align-content: normal;
   background-color: coral;
   display: grid;
@@ -8,7 +8,7 @@
   padding: 12px;
 }
 
-.grid-container div {
+.container div {
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;

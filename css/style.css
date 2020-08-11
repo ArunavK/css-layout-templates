@@ -7,6 +7,7 @@
 body {
   background-color: var(--blue-back);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  padding-left: 10px;
 }
 
 h1 {
@@ -18,17 +19,25 @@ p {
   font-size: 19px;
 }
 
+.container {
+  resize: both;
+  overflow: auto;
+}
+
 .sans-serif {
   font-family: "Roboto", Helvetica, Arial;
 }
 
 a {
   text-decoration: none;
+  color: rgb(65, 139, 22);
 }
 
 a:hover {
-  text-decoration: underline;
-  color: green;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 25px;
+  color: purple;
 }
 
 .green {
@@ -44,11 +53,6 @@ a:hover {
 .blue {
   background: skyblue;
   border: 1px dashed rgb(53, 130, 160);
-}
-
-.white {
-  background-color: antiquewhite;
-  border: 1px dashed gray;
 }
 
 .purple {
