@@ -1,23 +1,13 @@
-body {
-  color: black;
-  background-image: url("../img/wood_texture_back.jpg");
-  background-position: center;
-}
-
-article {
-  background-color: hsla(39, 100%, 88%, 0.63);
-  margin: 15px 10%;
-  padding: 10px;
-}
-
 .container {
   align-content: normal;
-  background-color: coral;
+  background-color: gold;
   display: grid;
   grid-template-columns: repeat(4, auto);
   height: 400px;
   justify-content: normal;
   padding: 12px;
+  min-width: 90px;
+  min-height: 90px;
 }
 
 .container div {
@@ -55,7 +45,7 @@ article {
 .grid-item4 {
   grid-column-start: 2;
   grid-column-end: 4;
-  background-color: coral;
+  background-color: gold;
 }
 
 .grid-item4:hover {

@@ -1,16 +1,19 @@
+body {
+  background-position: center;
+}
+
 .container {
   display: grid;
-  justify-self: center;
-  grid-template-columns: minmax(150px, 25%) 1fr;
+  grid-template-columns: minmax(120px, 25%) 1fr;
   height: 400px;
-  resize: both;
-  overflow: auto;
+  min-height: 360px;
+  min-width: 360px;
 }
 
 .content {
   padding: 10px;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 nav a {

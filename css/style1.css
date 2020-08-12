@@ -7,6 +7,8 @@ h1 {
   grid-template: auto 1fr auto / auto 1fr auto;
   font-size: 20px;
   height: 400px;
+  min-height: 210px;
+  min-width: 310px;
 }
 
 .item {

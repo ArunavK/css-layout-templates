@@ -5,23 +5,33 @@
 }
 
 body {
-  background-color: rgb(255, 199, 199);
+  background-color: rgb(80, 61, 12);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: black;
+  color: rgb(56, 39, 16);
   background-image: url("../img/wood_texture_back.jpg");
-  background-position: center;
-  background-size: auto 100%;
+  background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+header {
+  background-color: rgb(15, 12, 3);
+  margin: 0px;
+  padding: 0px;
 }
 
 article {
-  background-color: hsla(39, 100%, 88%, 0.63);
+  background-color: hsla(39, 100%, 88%, 0.548);
   margin: 15px 10%;
   padding: 10px;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  color: hsl(36, 51%, 10%);
 }
 
 p {
@@ -30,8 +40,10 @@ p {
 }
 
 .container {
+  align-content: normal;
   resize: both;
   overflow: auto;
+  margin: auto;
 }
 
 .sans-serif {
@@ -40,14 +52,14 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(65, 139, 22);
+  color: gold;
 }
 
 a:hover {
   font-family: "Montserrat";
   font-weight: bolder;
   font-size: 25px;
-  color: purple;
+  color: rgb(145, 54, 26);
 }
 
 .green {
